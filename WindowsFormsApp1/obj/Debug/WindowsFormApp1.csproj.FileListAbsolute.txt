@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormApp1.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ChineseMedicine.login.resources
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ChineseMedicine.MainFunction.resources
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ChineseMedicine.Massageform.resources
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ChineseMedicine.MassageInquire.resources
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ChineseMedicine.MassageNewAddress.resources
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ChineseMedicine.MassageShow.resources
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ChineseMedicine.PatientShow.resources
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ChineseMedicine.selectMassage.resources
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormApp1.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormApp1.csproj.CoreCompileInputs.cache

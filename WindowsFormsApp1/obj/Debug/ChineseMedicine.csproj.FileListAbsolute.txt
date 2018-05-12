@@ -1,0 +1,64 @@
+D:\Microsoft\visual studio 2017\Projects\ChineseMedicine\ChineseMedicine\ChineseMedicine\bin\Debug\ChineseMedicine.exe.config
+D:\Microsoft\visual studio 2017\Projects\ChineseMedicine\ChineseMedicine\ChineseMedicine\bin\Debug\ChineseMedicine.exe
+D:\Microsoft\visual studio 2017\Projects\ChineseMedicine\ChineseMedicine\ChineseMedicine\bin\Debug\ChineseMedicine.pdb
+D:\Microsoft\visual studio 2017\Projects\ChineseMedicine\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.login.resources
+D:\Microsoft\visual studio 2017\Projects\ChineseMedicine\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.Massageform.resources
+D:\Microsoft\visual studio 2017\Projects\ChineseMedicine\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.MassageInquire.resources
+D:\Microsoft\visual studio 2017\Projects\ChineseMedicine\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.Properties.Resources.resources
+D:\Microsoft\visual studio 2017\Projects\ChineseMedicine\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.csproj.GenerateResource.Cache
+D:\Microsoft\visual studio 2017\Projects\ChineseMedicine\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.exe
+D:\Microsoft\visual studio 2017\Projects\ChineseMedicine\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.pdb
+D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\bin\Debug\ChineseMedicine.exe.config
+D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\bin\Debug\ChineseMedicine.exe
+D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\bin\Debug\ChineseMedicine.pdb
+D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.csprojResolveAssemblyReference.cache
+D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.login.resources
+D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.MainFunction.resources
+D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.Massageform.resources
+D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.MassageInquire.resources
+D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.Properties.Resources.resources
+D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.csproj.GenerateResource.Cache
+D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.exe
+D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.pdb
+D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.selectMassage.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\bin\Debug\ChineseMedicine.exe.config
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\bin\Debug\ChineseMedicine.exe
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\bin\Debug\ChineseMedicine.pdb
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.login.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MainFunction.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.Massageform.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MassageInquire.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.selectMassage.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.exe
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.pdb
+E:\ChineseMedicineSolution\bin\Debug\ChineseMedicine.exe.config
+E:\ChineseMedicineSolution\bin\Debug\ChineseMedicine.exe
+E:\ChineseMedicineSolution\bin\Debug\ChineseMedicine.pdb
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.login.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MainFunction.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.Massageform.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MassageInquire.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.Properties.Resources.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.selectMassage.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.csproj.GenerateResource.Cache
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.exe
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.pdb
+E:\ChineseMedicineSolution\bin\Debug\ChineseMedicine.exe.manifest
+E:\ChineseMedicineSolution\bin\Debug\ChineseMedicine.application
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.exe.manifest
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.application
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MassageShow.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.PatientShow.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MassageNewAddress.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\bin\Debug\ChineseMedicine.exe.manifest
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\bin\Debug\ChineseMedicine.application
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MassageNewAddress.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MassageShow.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.PatientShow.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.exe.manifest
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.application
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.csprojResolveAssemblyReference.cache
