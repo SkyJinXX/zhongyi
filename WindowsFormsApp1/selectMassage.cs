@@ -98,6 +98,7 @@ namespace ChineseMedicine
             All.Num = textBox8.Text + "t" + textBox9.Text + "x" + textBox10.Text;
             All.Bei = textBox11.Text;
             All.Id = num;
+            All.Address = comboBox1.SelectedItem.ToString();
 
             //MessageBox.Show(All.Lei);
 

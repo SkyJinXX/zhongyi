@@ -53,31 +53,8 @@ namespace ChineseMedicine
 
             cmd.CommandText = "select Addres from Information where IDnum = '" + All.Id + "'";
             String ad = cmd.ExecuteScalar().ToString();
-            String sp = "", ss = "", sq = "", sj = "", sde = "";
-            int pi = ad.IndexOf("省");
-            int si = ad.IndexOf("市");
-            int qi = ad.IndexOf("区");
-            int ji = ad.IndexOf("街");
-            int di = ji + 4;
-            int l = ad.Length;
-            //MessageBox.Show(si + " " + qi + " " + ji + " " + di);
-            if(pi != 0)
-                sp = ad.Substring(0, pi);
-            if (si - pi - 1 != 0)
-                ss = ad.Substring(pi + 1, si - pi - 1);
-            if (qi - si - 1 != 0)
-                sq = ad.Substring(si + 1, qi - si - 1);
-            if (ji - qi - 1 != 0)
-                sj = ad.Substring(qi + 1, ji - qi -1);
-            if (l - di - 1 != 0)
-                sde = ad.Substring(di + 1, l - di - 1);
-            //MessageBox.Show(ss + " " + sq + " " + sj + " " + sde);
 
-            label24.Text = sp;
-            city.Text = ss;
-            area.Text = sq;
-            Street.Text = sj;
-            detail.Text = sde;
+            detail.Text = All.Address;
 
             cmd.CommandText = "select Phone from Patient where IDp = '" + number.Text + "'";
             phone.Text = cmd.ExecuteScalar().ToString();

@@ -36,8 +36,7 @@ namespace ChineseMedicine
             conn.Open();
 
             if(textBox4.Text == "" || textBox5.Text == "" || 
-                textBox9.Text == "" || textBox11.Text == ""||
-                comboBox1.SelectedItem.ToString()=="")
+                textBox9.Text == "" || comboBox1.SelectedItem.ToString()=="")
             {
                 MessageBox.Show("信息请填写完整");
 
@@ -101,9 +100,15 @@ namespace ChineseMedicine
             String s = "";
 
             String sp = textBox2.Text;
-            if (!sp.EndsWith("省"))
+
+            if(sp.IndexOf(comboBox2.SelectedItem.ToString()) == -1)
             {
-                sp += "省";
+                sp += comboBox2.SelectedItem.ToString();
+            }
+
+            if(textBox2.Text == "")
+            {
+                sp = "";
             }
 
             String ss = textBox6.Text;
@@ -112,18 +117,32 @@ namespace ChineseMedicine
                 ss += "市";
             }
 
-            String sq = textBox8.Text;
-            if (!sq.EndsWith("区"))
+            if (textBox6.Text == "")
             {
-                sq += "区";
+                ss = "";
+            }
+
+            String sq = textBox8.Text;
+            if (sq.IndexOf(comboBox3.SelectedItem.ToString()) == -1)
+            {
+                sq += comboBox3.SelectedItem.ToString();
+            }
+
+            if (textBox8.Text == "")
+            {
+                sq = "";
             }
 
             String sj = textBox7.Text;
-            if (sj.EndsWith("街") || sj.EndsWith("乡"))
+            if (sj.IndexOf(comboBox4.SelectedItem.ToString()) == -1)
             {
-                sj = sj.Substring(0, sj.Length - 1);
+                sj += comboBox4.SelectedItem.ToString();
             }
-            sj += "街道（乡）";
+
+            if (textBox7.Text == "")
+            {
+                sj = "";
+            }
 
             s = sp + ss + sq + sj + textBox9.Text;
 

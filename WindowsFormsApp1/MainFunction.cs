@@ -71,6 +71,9 @@ namespace ChineseMedicine
         private static String lei = "";
         private static String num = "";
         private static String bei = "";
+        private static String address = "";
+
+
         public static String Id
         {
             get
@@ -124,6 +127,17 @@ namespace ChineseMedicine
             set
             {
                 bei = value;
+            }
+        }
+        public static String Address
+        {
+            get
+            {
+                return address;
+            }
+            set
+            {
+                address = value;
             }
         }
     }
