@@ -53,25 +53,17 @@ namespace ChineseMedicine
             {
                 //获取出生日期
                 String birthday = Get_Data();
-                
+                //MessageBox.Show(birthday);
+
                 //获取Gender（M/F）
                 String gender = "";
                 gender = comboBox1.SelectedItem.ToString();
 
                 String str = "";
+                
+                str = "insert into Patient values('" + textBox4.Text + "', '" + textBox5.Text
+                    + "', '" + gender + "','" + birthday + "','" + textBox11.Text + "', '" + textBox10.Text + "')";
 
-                if (textBox12.Text == "" || textBox1.Text == "" || textBox3.Text == "")
-                {
-                    str = "insert into Patient values('" + textBox4.Text + "', '" + textBox5.Text
-                    + "', '" + gender + "','" + "" + "','" + textBox11.Text + "', '" + textBox10.Text + "')";
-
-                }
-                else
-                {
-                    str = "insert into Patient values('" + textBox4.Text + "', '" + textBox5.Text
-                        + "', '" + gender + "','" + birthday + "','" + textBox11.Text + "', '" + textBox10.Text + "')";
-                   
-                }
                 SqlCommand cmd = new SqlCommand(str, conn);
                 cmd.ExecuteScalar();
                 //MessageBox.Show("患者信息已录入！");
@@ -86,10 +78,24 @@ namespace ChineseMedicine
                 {
                     cq.CommandText = "select Count(*) from Address";
                     int num = Convert.ToInt32(cq.ExecuteScalar()) + 1;
+
+                    while (true)
+                    {
+                        cq.CommandText = "select IDa from Address where IDa = '" + num.ToString() + "'";
+                        if (cq.ExecuteScalar() != null)
+                        {
+                            num++;
+                        }
+                        else
+                            break;
+                    }
+
+                    //MessageBox.Show(num.ToString());
+
                     cmd.CommandText = "insert into Address values('" + num.ToString() + "','" + textBox4.Text
                         + "','" + s + "')";
                     cmd.ExecuteScalar();
-                    MessageBox.Show("患者信息已录入！");
+                    MessageBox.Show("患者信息录入成功！");
                 }
             }
             conn.Close();
@@ -153,15 +159,42 @@ namespace ChineseMedicine
         //获取出生日期
         private string Get_Data()
         {
-            String s = textBox12.Text + "-";
+            String s = "";
+            if (textBox12.Text == "")
+            {
+                s += "1900-";
+            }
+            else
+            {
+                s += textBox12.Text + "-";
+            }
 
-            if (textBox1.Text.Length == 1)
-                s += "0";
-            s += textBox1.Text + "-";
+            if (textBox1.Text == "")
+            {
+                s += "01-";
+            }
+            else
+            {
+                if (textBox1.Text.Length == 1)
+                {
+                    s += "0";
+                }
+                s += textBox1.Text + "-";
+            }
 
-            if (textBox3.Text.Length == 1)
-                s += "0";
-            s += textBox3.Text + " 00:00:00";
+            if (textBox3.Text == "")
+            {
+                s += "01";
+            }
+            else
+            {
+                if (textBox3.Text.Length == 1)
+                {
+                    s += "0";
+                }
+                s += textBox3.Text;
+            }
+            s +=" 00:00:00";
 
             //MessageBox.Show(s);
             return s;
@@ -178,6 +211,15 @@ namespace ChineseMedicine
             Form MassageNewAddress = new MassageNewAddress();
             MassageNewAddress.ShowDialog();
             this.Show();
+        }
+
+        private void MassageInquire_Load(object sender, EventArgs e)
+        {
+            comboBox1.SelectedIndex = 0;
+            comboBox2.SelectedIndex = 0;
+            comboBox3.SelectedIndex = 0;
+            comboBox4.SelectedIndex = 0;
+
         }
     }
 }

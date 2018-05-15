@@ -70,23 +70,24 @@ namespace ChineseMedicine
             SqlCommand cq = new SqlCommand(sq, conn);
             cq.CommandText = "select Count(*) from Information";
             String num = Convert.ToString(Convert.ToInt32(cq.ExecuteScalar()) + 1);
-
-            Boolean flag = true;
-            while(flag)
+            
+            while(true)
             {
                 cq.CommandText = "select IDnum from Information where IDnum = '" + num + "'";
-                if(cq.ExecuteScalar() != null)
-                {
-                    num = Convert.ToString(Convert.ToInt32(num) + 1);
-                }
-                else
-                {
-                    flag = false;
-                }
+                if(cq.ExecuteScalar() == null)
+                    break;
+                num = Convert.ToString(Convert.ToInt32(num) + 1);
             }
 
             //MessageBox.Show(num);
             String s = Get_Data();
+
+            if(textBox1.Text == textBox2.Text && textBox2.Text == textBox3.Text && textBox3.Text == "")
+            {
+                s = DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
+                
+            }
+            //MessageBox.Show(s);
             cq.CommandText = "insert into Information values('" + num + "','" + textBox4.Text + "','" 
                 + this.comboBox1.Text + "','" + s + "')";
             cq.ExecuteNonQuery();
@@ -110,14 +111,42 @@ namespace ChineseMedicine
 
         private string Get_Data()
         {
-            String s = textBox1.Text + "-";
-            if (textBox2.Text.Length == 1)
-                s += "0";
-            s += textBox2.Text + "-";
+            String s = "";
+            if (textBox1.Text == "")
+            {
+                s += "1900-";
+            }
+            else
+            {
+                s += textBox1.Text + "-";
+            }
 
-            if (textBox3.Text.Length == 1)
-                s += "0";
-            s += textBox3.Text + " 00:00:00";
+            if (textBox2.Text == "")
+            {
+                s += "01-";
+            }
+            else
+            {
+                if (textBox2.Text.Length == 1)
+                {
+                    s += "0";
+                }
+                s += textBox2.Text + "-";
+            }
+
+            if (textBox3.Text == "")
+            {
+                s += "01";
+            }
+            else
+            {
+                if (textBox3.Text.Length == 1)
+                {
+                    s += "0";
+                }
+                s += textBox3.Text;
+            }
+            s += " " + DateTime.Now.ToLongTimeString().ToString();
 
             //MessageBox.Show(s);
             return s;
@@ -126,6 +155,13 @@ namespace ChineseMedicine
         private void Massageform_FormClosing(object sender, FormClosingEventArgs e)
         {
             System.Environment.Exit(0);
+        }
+
+        private void selectMassage_Load(object sender, EventArgs e)
+        {
+            textBox1.Text = DateTime.Now.Year.ToString();
+            textBox2.Text = DateTime.Now.Month.ToString();
+            textBox3.Text = DateTime.Now.Day.ToString();
         }
     }
 }

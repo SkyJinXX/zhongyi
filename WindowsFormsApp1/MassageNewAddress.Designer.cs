@@ -331,6 +331,7 @@
             this.Name = "MassageNewAddress";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "地址录入系统";
+            this.Load += new System.EventHandler(this.MassageNewAddress_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
