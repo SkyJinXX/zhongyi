@@ -52,11 +52,25 @@ namespace ChineseMedicine
             }
 
             String s = Address_Deal();
+            cq.CommandText = "select IDp from Address where IDp ='" + textBox4.Text + "' and Addres = '" + s + "'";
+            if (cq.ExecuteScalar() != null)
+            {
+                MessageBox.Show("地址已存在，录入失败！");
+            }
+            else
+            {
+                cmd.CommandText = "insert into Address values('" + num.ToString() + "','" + textBox4.Text
+                    + "','" + s + "')";
+                cmd.ExecuteScalar();
 
-            cmd.CommandText = "insert into Address values('" + num.ToString() + "','" + textBox4.Text
-                + "','" + s + "')";
-            cmd.ExecuteScalar();
-            MessageBox.Show("患者地址录入成功！");
+                DataTable dt = new DataTable();
+                cq.CommandText = "select Addres from Address where IDp = '" + textBox4.Text + "'";
+                SqlDataAdapter sda = new SqlDataAdapter(cq);
+                sda.Fill(dt);
+                this.comboBox1.DataSource = (from x in dt.Rows.Cast<DataRow>().ToList() select x[0]).ToList();
+
+                MessageBox.Show("患者地址录入成功！");
+            }
         }
 
         private string Address_Deal()
@@ -145,7 +159,7 @@ namespace ChineseMedicine
 
         private void MassageNewAddress_Load(object sender, EventArgs e)
         {
-            comboBox1.SelectedIndex = 0;
+            //comboBox1.SelectedIndex = 0;
             comboBox2.SelectedIndex = 0;
             comboBox3.SelectedIndex = 0;
             comboBox4.SelectedIndex = 0;

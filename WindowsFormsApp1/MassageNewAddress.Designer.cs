@@ -70,7 +70,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(594, 105);
+            this.button1.Location = new System.Drawing.Point(610, 118);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 30);
             this.button1.TabIndex = 183;
@@ -84,7 +84,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label7.Font = new System.Drawing.Font("宋体", 15F);
-            this.label7.Location = new System.Drawing.Point(306, 110);
+            this.label7.Location = new System.Drawing.Point(322, 123);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(59, 20);
             this.label7.TabIndex = 182;
@@ -93,7 +93,7 @@
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox5.Location = new System.Drawing.Point(370, 107);
+            this.textBox5.Location = new System.Drawing.Point(386, 120);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(159, 30);
             this.textBox5.TabIndex = 181;
@@ -101,7 +101,7 @@
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox4.Location = new System.Drawing.Point(123, 107);
+            this.textBox4.Location = new System.Drawing.Point(139, 120);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(152, 30);
             this.textBox4.TabIndex = 180;
@@ -112,7 +112,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label6.Font = new System.Drawing.Font("宋体", 15F);
-            this.label6.Location = new System.Drawing.Point(18, 110);
+            this.label6.Location = new System.Drawing.Point(31, 123);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(99, 20);
             this.label6.TabIndex = 179;
@@ -120,13 +120,12 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
             this.comboBox1.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.ItemHeight = 20;
-            this.comboBox1.Location = new System.Drawing.Point(120, 162);
+            this.comboBox1.Location = new System.Drawing.Point(136, 175);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(504, 26);
+            this.comboBox1.Size = new System.Drawing.Size(504, 28);
             this.comboBox1.TabIndex = 185;
             // 
             // label11
@@ -135,7 +134,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label11.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label11.Location = new System.Drawing.Point(15, 164);
+            this.label11.Location = new System.Drawing.Point(31, 177);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(99, 20);
             this.label11.TabIndex = 184;
@@ -147,7 +146,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label5.Font = new System.Drawing.Font("宋体", 15F);
-            this.label5.Location = new System.Drawing.Point(18, 295);
+            this.label5.Location = new System.Drawing.Point(34, 308);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(59, 20);
             this.label5.TabIndex = 195;
@@ -159,7 +158,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label3.Font = new System.Drawing.Font("宋体", 15F);
-            this.label3.Location = new System.Drawing.Point(19, 273);
+            this.label3.Location = new System.Drawing.Point(35, 286);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 20);
             this.label3.TabIndex = 194;
@@ -168,7 +167,7 @@
             // textBox9
             // 
             this.textBox9.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox9.Location = new System.Drawing.Point(79, 269);
+            this.textBox9.Location = new System.Drawing.Point(95, 282);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(624, 53);
@@ -179,7 +178,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button2.Location = new System.Drawing.Point(450, 374);
+            this.button2.Location = new System.Drawing.Point(458, 374);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(109, 30);
             this.button2.TabIndex = 196;
@@ -192,7 +191,7 @@
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button3.Location = new System.Drawing.Point(256, 374);
+            this.button3.Location = new System.Drawing.Point(222, 374);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(109, 30);
             this.button3.TabIndex = 197;
@@ -202,67 +201,67 @@
             // 
             // comboBox4
             // 
-            this.comboBox4.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.comboBox4.Font = new System.Drawing.Font("宋体", 15F);
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.ItemHeight = 20;
             this.comboBox4.Items.AddRange(new object[] {
             "街道",
             "镇",
             "乡"});
-            this.comboBox4.Location = new System.Drawing.Point(716, 217);
+            this.comboBox4.Location = new System.Drawing.Point(689, 231);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(79, 26);
+            this.comboBox4.Size = new System.Drawing.Size(60, 28);
             this.comboBox4.TabIndex = 206;
             // 
             // comboBox3
             // 
-            this.comboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.comboBox3.Font = new System.Drawing.Font("宋体", 15F);
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.ItemHeight = 20;
             this.comboBox3.Items.AddRange(new object[] {
             "区",
             "县",
             "县级市"});
-            this.comboBox3.Location = new System.Drawing.Point(501, 217);
+            this.comboBox3.Location = new System.Drawing.Point(486, 231);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(79, 26);
+            this.comboBox3.Size = new System.Drawing.Size(81, 28);
             this.comboBox3.TabIndex = 205;
             // 
             // comboBox2
             // 
-            this.comboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.comboBox2.Font = new System.Drawing.Font("宋体", 15F);
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.IntegralHeight = false;
             this.comboBox2.ItemHeight = 20;
             this.comboBox2.Items.AddRange(new object[] {
             "省",
             "自治区",
-            "省级市"});
-            this.comboBox2.Location = new System.Drawing.Point(193, 218);
+            "直辖市"});
+            this.comboBox2.Location = new System.Drawing.Point(185, 231);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(70, 26);
+            this.comboBox2.Size = new System.Drawing.Size(81, 28);
             this.comboBox2.TabIndex = 204;
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox2.Location = new System.Drawing.Point(87, 217);
+            this.textBox2.Location = new System.Drawing.Point(91, 230);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 30);
+            this.textBox2.Size = new System.Drawing.Size(88, 30);
             this.textBox2.TabIndex = 203;
             // 
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox7.Location = new System.Drawing.Point(586, 217);
+            this.textBox7.Location = new System.Drawing.Point(573, 231);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(124, 30);
+            this.textBox7.Size = new System.Drawing.Size(110, 30);
             this.textBox7.TabIndex = 202;
             // 
             // textBox8
             // 
             this.textBox8.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox8.Location = new System.Drawing.Point(401, 217);
+            this.textBox8.Location = new System.Drawing.Point(387, 230);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(94, 30);
             this.textBox8.TabIndex = 201;
@@ -270,9 +269,9 @@
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox6.Location = new System.Drawing.Point(269, 217);
+            this.textBox6.Location = new System.Drawing.Point(272, 230);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(80, 30);
+            this.textBox6.Size = new System.Drawing.Size(84, 30);
             this.textBox6.TabIndex = 200;
             // 
             // label10
@@ -281,7 +280,7 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label10.Font = new System.Drawing.Font("宋体", 15F);
-            this.label10.Location = new System.Drawing.Point(358, 222);
+            this.label10.Location = new System.Drawing.Point(356, 235);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(29, 20);
             this.label10.TabIndex = 199;
@@ -293,7 +292,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label2.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(8, 217);
+            this.label2.Location = new System.Drawing.Point(33, 233);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 20);
             this.label2.TabIndex = 198;
