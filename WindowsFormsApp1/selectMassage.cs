@@ -47,6 +47,11 @@ namespace ChineseMedicine
                 //数据库查询结果全部返回形成下拉框comboBox
                 DataTable dt = new DataTable();
                 cq.CommandText = "select Addres from Address where IDp = '" + textBox4.Text + "'";
+                if(cq.ExecuteScalar() == null)
+                {
+                    MessageBox.Show("未查询到地址，请添加地址");
+                }
+
                 SqlDataAdapter sda = new SqlDataAdapter(cq);
                 sda.Fill(dt);
                 this.comboBox1.DataSource = (from x in dt.Rows.Cast<DataRow>().ToList() select x[0]).ToList();

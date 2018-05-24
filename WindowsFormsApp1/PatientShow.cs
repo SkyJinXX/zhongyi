@@ -182,7 +182,7 @@ namespace ChineseMedicine
             Thread th = new Thread(ThreadSendKey);
             th.Start(this);
         }
-        private int DeleteByIDp(String IDp)
+        private int DeleteByIDp(String IDa)
         {
             String connstr = ConfigurationManager.ConnectionStrings["ConStr"].ToString();
             SqlConnection conn = new SqlConnection(connstr);
@@ -190,15 +190,15 @@ namespace ChineseMedicine
 
             String sql = "delete from Information where IDp ='" + IDp + "'";
             SqlCommand cmd = new SqlCommand(sql, conn);
+            //int rst = cmd.ExecuteNonQuery();
+
+            sql = "delete from Address where IDa ='" + IDa + "'";
+            cmd.CommandText = sql;
             int rst = cmd.ExecuteNonQuery();
 
-            sql = "delete from Address where IDp ='" + IDp + "'";
-            cmd.CommandText = sql;
-            cmd.ExecuteNonQuery();
-
-            sql = "delete from Patient where IDp ='" + IDp + "'";
-            cmd.CommandText = sql;
-            cmd.ExecuteNonQuery();
+            //sql = "delete from Patient where IDp ='" + IDp + "'";
+            //cmd.CommandText = sql;
+            //cmd.ExecuteNonQuery();
 
             conn.Close();
             return rst;
@@ -211,10 +211,10 @@ namespace ChineseMedicine
                 switch (RSS)
                 {
                     case DialogResult.Yes:
-                        String IDp = (String)dataGridView1.Rows[e.RowIndex].Cells["IDp"].Value;
+                        String IDa = (String)dataGridView1.Rows[e.RowIndex].Cells["IDa"].Value;
                         //String msg = "删除的行数:" + DeleteByIDp(IDp);
-                        DeleteByIDp(IDp);
-                        MessageBox.Show("已删除", "友情提示:");
+                        DeleteByIDp(IDa);
+                        MessageBox.Show("删除成功！", "友情提示:");
                         button2_Click(null, null);
                         break;
                     case DialogResult.No:

@@ -33,14 +33,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.IDp = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DeleteRow = new System.Windows.Forms.DataGridViewLinkColumn();
-            this.IDa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BirthDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PPhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PAddres = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menzhenDataSet2BindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.menzhenDataSet2 = new ChineseMedicine.MenzhenDataSet2();
             this.patientBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
@@ -56,6 +48,14 @@
             this.menzhenDataSet = new ChineseMedicine.MenzhenDataSet2();
             this.menzhenDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.patientTableAdapter1 = new ChineseMedicine.MenzhenDataSet2TableAdapters.PatientTableAdapter();
+            this.IDp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BirthDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PPhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PAddres = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DeleteRow = new System.Windows.Forms.DataGridViewLinkColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSet2BindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSet2)).BeginInit();
@@ -100,13 +100,13 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.IDp,
-            this.DeleteRow,
             this.IDa,
             this.PName,
             this.Gender,
             this.BirthDate,
             this.PPhone,
-            this.PAddres});
+            this.PAddres,
+            this.DeleteRow});
             this.dataGridView1.DataSource = this.menzhenDataSet2BindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(30, 134);
             this.dataGridView1.Name = "dataGridView1";
@@ -117,59 +117,6 @@
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEndEdit);
             this.dataGridView1.CellLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellLeave);
-            // 
-            // IDp
-            // 
-            this.IDp.DataPropertyName = "IDp";
-            this.IDp.HeaderText = "医保卡号";
-            this.IDp.Name = "IDp";
-            // 
-            // DeleteRow
-            // 
-            this.DeleteRow.HeaderText = "";
-            this.DeleteRow.Name = "DeleteRow";
-            this.DeleteRow.Text = "删除";
-            this.DeleteRow.UseColumnTextForLinkValue = true;
-            // 
-            // IDa
-            // 
-            this.IDa.DataPropertyName = "IDa";
-            this.IDa.HeaderText = "IDa";
-            this.IDa.Name = "IDa";
-            this.IDa.Visible = false;
-            // 
-            // PName
-            // 
-            this.PName.DataPropertyName = "Name";
-            this.PName.HeaderText = "姓名";
-            this.PName.Name = "PName";
-            this.PName.Width = 80;
-            // 
-            // Gender
-            // 
-            this.Gender.DataPropertyName = "Gender";
-            this.Gender.HeaderText = "性别";
-            this.Gender.Name = "Gender";
-            this.Gender.Width = 80;
-            // 
-            // BirthDate
-            // 
-            this.BirthDate.DataPropertyName = "BirthDate";
-            this.BirthDate.HeaderText = "出生日期";
-            this.BirthDate.Name = "BirthDate";
-            // 
-            // PPhone
-            // 
-            this.PPhone.DataPropertyName = "Phone";
-            this.PPhone.HeaderText = "联系方式";
-            this.PPhone.Name = "PPhone";
-            // 
-            // PAddres
-            // 
-            this.PAddres.DataPropertyName = "Addres";
-            this.PAddres.HeaderText = "住址";
-            this.PAddres.Name = "PAddres";
-            this.PAddres.Width = 240;
             // 
             // menzhenDataSet2BindingSource1
             // 
@@ -270,6 +217,59 @@
             // 
             this.patientTableAdapter1.ClearBeforeFill = true;
             // 
+            // IDp
+            // 
+            this.IDp.DataPropertyName = "IDp";
+            this.IDp.HeaderText = "医保卡号";
+            this.IDp.Name = "IDp";
+            // 
+            // IDa
+            // 
+            this.IDa.DataPropertyName = "IDa";
+            this.IDa.HeaderText = "IDa";
+            this.IDa.Name = "IDa";
+            this.IDa.Visible = false;
+            // 
+            // PName
+            // 
+            this.PName.DataPropertyName = "Name";
+            this.PName.HeaderText = "姓名";
+            this.PName.Name = "PName";
+            this.PName.Width = 80;
+            // 
+            // Gender
+            // 
+            this.Gender.DataPropertyName = "Gender";
+            this.Gender.HeaderText = "性别";
+            this.Gender.Name = "Gender";
+            this.Gender.Width = 80;
+            // 
+            // BirthDate
+            // 
+            this.BirthDate.DataPropertyName = "BirthDate";
+            this.BirthDate.HeaderText = "出生日期";
+            this.BirthDate.Name = "BirthDate";
+            // 
+            // PPhone
+            // 
+            this.PPhone.DataPropertyName = "Phone";
+            this.PPhone.HeaderText = "联系方式";
+            this.PPhone.Name = "PPhone";
+            // 
+            // PAddres
+            // 
+            this.PAddres.DataPropertyName = "Addres";
+            this.PAddres.HeaderText = "住址";
+            this.PAddres.Name = "PAddres";
+            this.PAddres.Width = 240;
+            // 
+            // DeleteRow
+            // 
+            this.DeleteRow.HeaderText = "";
+            this.DeleteRow.Name = "DeleteRow";
+            this.DeleteRow.Text = "删除";
+            this.DeleteRow.UseColumnTextForLinkValue = true;
+            // 
             // PatientShow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -325,12 +325,12 @@
         private MenzhenDataSet2TableAdapters.PatientTableAdapter patientTableAdapter1;
         private System.Windows.Forms.BindingSource menzhenDataSet2BindingSource1;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDp;
-        private System.Windows.Forms.DataGridViewLinkColumn DeleteRow;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDa;
         private System.Windows.Forms.DataGridViewTextBoxColumn PName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Gender;
         private System.Windows.Forms.DataGridViewTextBoxColumn BirthDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn PPhone;
         private System.Windows.Forms.DataGridViewTextBoxColumn PAddres;
+        private System.Windows.Forms.DataGridViewLinkColumn DeleteRow;
     }
 }

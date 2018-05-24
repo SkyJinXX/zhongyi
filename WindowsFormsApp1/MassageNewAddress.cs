@@ -40,7 +40,7 @@ namespace ChineseMedicine
             Boolean flag = true;
             while (flag)
             {
-                cq.CommandText = "select IDnum from Information where IDnum = '" + num + "'";
+                cq.CommandText = "select IDa from Address where IDa = '" + num + "'";
                 if (cq.ExecuteScalar() != null)
                 {
                     num = Convert.ToString(Convert.ToInt32(num) + 1);
