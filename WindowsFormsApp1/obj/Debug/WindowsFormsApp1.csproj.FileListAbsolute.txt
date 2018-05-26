@@ -45,7 +45,6 @@ E:\zhongyi\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
 E:\zhongyi\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
 E:\zhongyi\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 E:\zhongyi\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
-E:\zhongyi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
 E:\zhongyi\WindowsFormsApp1\obj\Debug\ChineseMedicine.login.resources
 E:\zhongyi\WindowsFormsApp1\obj\Debug\ChineseMedicine.MainFunction.resources
 E:\zhongyi\WindowsFormsApp1\obj\Debug\ChineseMedicine.Massageform.resources
