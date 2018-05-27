@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <asmv1:assemblyIdentity name="WindowsFormsApp1.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
-  <description asmv2:iconFile="BitTorrent Sync.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:iconFile="open_source_128px_1210181_easyicon.net.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="WindowsFormsApp1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -43,24 +43,33 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApp1.exe" size="9273360">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApp1.exe" size="9249296">
       <assemblyIdentity name="WindowsFormsApp1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YLougxKl+3NM7qrDNjgm3PnP6+0K8FzK+iABbwdefv4=</dsig:DigestValue>
+        <dsig:DigestValue>+apT1bj6vPfjIZMQvM+8v3kEP9ttVCAHrDnA3I9JaH8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="BitTorrent Sync.ico" size="69913">
+  <file name="open_source_128px_1210181_easyicon.net.ico" size="63950">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>i7uXrj0xCenr9dz+e9pFSwlhXWhN4fkYwnLB4DuM5Qg=</dsig:DigestValue>
+      <dsig:DigestValue>bmQd9A90GbO2sRCYMbpr/kih3QIewS+qr1eMOsuFJnA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ubuntu_128px_1210170_easyicon.net.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p++ulSiVoGcM3KLGJfFvwsTfbjILnPZRHTlgcboI6YA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="WindowsFormsApp1.exe.config" size="1060">
@@ -69,7 +78,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>yc6HX56ESmO8YUka5sxY6NWiJ/MU+ZW4oNx71D+WnmI=</dsig:DigestValue>
+      <dsig:DigestValue>u5JhKUytbyzWxZEtzPG/uiMCvm3WlA1k6ncp26Qr7Zs=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

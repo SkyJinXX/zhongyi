@@ -72,7 +72,7 @@
             this.label1.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(95, 57);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(378, 33);
+            this.label1.Size = new System.Drawing.Size(468, 40);
             this.label1.TabIndex = 136;
             this.label1.Text = "杭州传承中医门诊主界面";
             // 
@@ -107,7 +107,7 @@
             // 
             // MainFunction
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;

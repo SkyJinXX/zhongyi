@@ -42,14 +42,14 @@
             this.textBox2.Location = new System.Drawing.Point(267, 217);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(210, 30);
+            this.textBox2.Size = new System.Drawing.Size(210, 36);
             this.textBox2.TabIndex = 11;
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(267, 162);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(210, 30);
+            this.textBox1.Size = new System.Drawing.Size(210, 36);
             this.textBox1.TabIndex = 10;
             // 
             // button1
@@ -73,7 +73,7 @@
             this.password.Location = new System.Drawing.Point(180, 220);
             this.password.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(69, 20);
+            this.password.Size = new System.Drawing.Size(88, 25);
             this.password.TabIndex = 8;
             this.password.Text = " 密码:";
             // 
@@ -85,7 +85,7 @@
             this.username.Location = new System.Drawing.Point(180, 165);
             this.username.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(79, 20);
+            this.username.Size = new System.Drawing.Size(100, 25);
             this.username.TabIndex = 7;
             this.username.Text = "用户名:";
             // 
@@ -96,13 +96,13 @@
             this.label1.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(102, 72);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(510, 33);
+            this.label1.Size = new System.Drawing.Size(632, 40);
             this.label1.TabIndex = 136;
             this.label1.Text = "杭州传承中医门诊部送药信息系统";
             // 
             // login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Window;
@@ -115,6 +115,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.password);
             this.Controls.Add(this.username);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("宋体", 15F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);

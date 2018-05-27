@@ -221,7 +221,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label7.Font = new System.Drawing.Font("宋体", 15F);
-            this.label7.Location = new System.Drawing.Point(447, 130);
+            this.label7.Location = new System.Drawing.Point(90, 136);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(63, 42);
             this.label7.TabIndex = 147;
@@ -233,7 +233,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label6.Font = new System.Drawing.Font("宋体", 15F);
-            this.label6.Location = new System.Drawing.Point(589, 130);
+            this.label6.Location = new System.Drawing.Point(589, 91);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(68, 42);
             this.label6.TabIndex = 144;
@@ -245,7 +245,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label5.Font = new System.Drawing.Font("宋体", 15F);
-            this.label5.Location = new System.Drawing.Point(392, 130);
+            this.label5.Location = new System.Drawing.Point(473, 91);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(22, 42);
             this.label5.TabIndex = 140;
@@ -257,7 +257,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label4.Font = new System.Drawing.Font("宋体", 15F);
-            this.label4.Location = new System.Drawing.Point(347, 130);
+            this.label4.Location = new System.Drawing.Point(421, 91);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(20, 42);
             this.label4.TabIndex = 139;
@@ -269,7 +269,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label3.Font = new System.Drawing.Font("宋体", 15F);
-            this.label3.Location = new System.Drawing.Point(297, 130);
+            this.label3.Location = new System.Drawing.Point(371, 91);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(26, 42);
             this.label3.TabIndex = 138;
@@ -281,7 +281,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label2.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(194, 130);
+            this.label2.Location = new System.Drawing.Point(268, 91);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 42);
             this.label2.TabIndex = 137;
@@ -363,7 +363,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.phone.BackColor = System.Drawing.Color.Transparent;
             this.phone.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.phone.Location = new System.Drawing.Point(160, 240);
+            this.phone.Location = new System.Drawing.Point(159, 240);
             this.phone.Name = "phone";
             this.phone.Size = new System.Drawing.Size(136, 42);
             this.phone.TabIndex = 181;
@@ -393,7 +393,7 @@
             this.way.BackColor = System.Drawing.Color.Transparent;
             this.way.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.way.Font = new System.Drawing.Font("宋体", 15F);
-            this.way.Location = new System.Drawing.Point(97, 130);
+            this.way.Location = new System.Drawing.Point(90, 91);
             this.way.Name = "way";
             this.way.Size = new System.Drawing.Size(102, 42);
             this.way.TabIndex = 183;
@@ -407,7 +407,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.year.BackColor = System.Drawing.Color.Transparent;
             this.year.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.year.Location = new System.Drawing.Point(250, 130);
+            this.year.Location = new System.Drawing.Point(324, 91);
             this.year.Name = "year";
             this.year.Size = new System.Drawing.Size(49, 42);
             this.year.TabIndex = 184;
@@ -421,7 +421,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.month.BackColor = System.Drawing.Color.Transparent;
             this.month.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.month.Location = new System.Drawing.Point(322, 130);
+            this.month.Location = new System.Drawing.Point(396, 91);
             this.month.Name = "month";
             this.month.Size = new System.Drawing.Size(29, 42);
             this.month.TabIndex = 185;
@@ -435,7 +435,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day.BackColor = System.Drawing.Color.Transparent;
             this.day.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.day.Location = new System.Drawing.Point(366, 130);
+            this.day.Location = new System.Drawing.Point(447, 91);
             this.day.Name = "day";
             this.day.Size = new System.Drawing.Size(29, 42);
             this.day.TabIndex = 186;
@@ -449,7 +449,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.number.BackColor = System.Drawing.Color.Transparent;
             this.number.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.number.Location = new System.Drawing.Point(663, 130);
+            this.number.Location = new System.Drawing.Point(663, 91);
             this.number.Name = "number";
             this.number.Size = new System.Drawing.Size(189, 42);
             this.number.TabIndex = 187;
@@ -463,7 +463,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.name.BackColor = System.Drawing.Color.Transparent;
             this.name.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.name.Location = new System.Drawing.Point(501, 130);
+            this.name.Location = new System.Drawing.Point(159, 136);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(84, 42);
             this.name.TabIndex = 188;
@@ -475,11 +475,13 @@
             this.detail.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.detail.AutoSize = true;
             this.detail.BackColor = System.Drawing.Color.Transparent;
             this.detail.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.detail.Location = new System.Drawing.Point(159, 185);
+            this.detail.MaximumSize = new System.Drawing.Size(690, 0);
             this.detail.Name = "detail";
-            this.detail.Size = new System.Drawing.Size(768, 42);
+            this.detail.Size = new System.Drawing.Size(90, 25);
             this.detail.TabIndex = 192;
             this.detail.Text = "detail";
             this.detail.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -550,19 +552,21 @@
             // 
             // label27
             // 
+            this.label27.AutoSize = true;
             this.label27.BackColor = System.Drawing.Color.Transparent;
             this.label27.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label27.Font = new System.Drawing.Font("宋体", 15F);
-            this.label27.Location = new System.Drawing.Point(176, 350);
+            this.label27.Location = new System.Drawing.Point(159, 352);
+            this.label27.MaximumSize = new System.Drawing.Size(690, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(690, 42);
+            this.label27.Size = new System.Drawing.Size(125, 25);
             this.label27.TabIndex = 200;
             this.label27.Text = "备注内容:";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Massageform
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
@@ -612,6 +616,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "信息单系统";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

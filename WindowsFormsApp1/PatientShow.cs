@@ -97,7 +97,7 @@ namespace ChineseMedicine
 
         protected String SqlFlush()
         {
-            String s = "select Patient.IDp, IDa, Name, Gender, birthdate, Phone, Addres from Address,Patient where Address.IDp = Patient.IDp";
+            String s = "select Patient.IDp, IDa, Name, Gender, birthdate, Phone, Addres from Address,Patient where Address.IDp = Patient.IDp ";
 
             if (textBox1.Text != "")
             {
@@ -114,7 +114,7 @@ namespace ChineseMedicine
             {
                 if (textBox2.Text != "")
                 {
-                    s += "and Patient.Name like '%" + textBox2.Text + "%'";
+                    s += " and Patient.Name like '%" + textBox2.Text + "%'";
                 }
             }
 
@@ -179,8 +179,8 @@ namespace ChineseMedicine
 
             conn.Close();
             MessageBox.Show("修改成功");
-            Thread th = new Thread(ThreadSendKey);
-            th.Start(this);
+            //Thread th = new Thread(ThreadSendKey);
+            //th.Start(this);
         }
         private int DeleteByIDp(String IDa)
         {

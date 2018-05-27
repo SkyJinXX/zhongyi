@@ -21,7 +21,7 @@ namespace ChineseMedicine
         {
             string username = textBox1.Text.ToString();
             string password = textBox2.Text.ToString();
-            if (username == "admin" && password == "admin")
+            if (username == "cczysy" && password == "cczysy")
             {
                 this.Hide();
                 Form MainFunction = new MainFunction();

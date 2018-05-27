@@ -36,6 +36,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.IDnum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PPhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PAddres = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Delete = new System.Windows.Forms.DataGridViewLinkColumn();
             this.menzhenDataSetBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.menzhenDataSet = new ChineseMedicine.MenzhenDataSet2();
             this.addressBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
@@ -49,13 +56,6 @@
             this.patientTableAdapter = new ChineseMedicine.MenzhenDataSet2TableAdapters.PatientTableAdapter();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.IDnum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IDp = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PPhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PAddres = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Delete = new System.Windows.Forms.DataGridViewLinkColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSetBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSet)).BeginInit();
@@ -69,16 +69,18 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(147, 101);
+            this.textBox1.Location = new System.Drawing.Point(196, 126);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(150, 21);
+            this.textBox1.Size = new System.Drawing.Size(199, 25);
             this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(383, 101);
+            this.textBox2.Location = new System.Drawing.Point(511, 126);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 21);
+            this.textBox2.Size = new System.Drawing.Size(132, 25);
             this.textBox2.TabIndex = 2;
             // 
             // label13
@@ -87,9 +89,10 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label13.Font = new System.Drawing.Font("宋体", 15F);
-            this.label13.Location = new System.Drawing.Point(42, 101);
+            this.label13.Location = new System.Drawing.Point(56, 126);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(99, 20);
+            this.label13.Size = new System.Drawing.Size(125, 25);
             this.label13.TabIndex = 158;
             this.label13.Text = "医保卡号:";
             // 
@@ -99,9 +102,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Font = new System.Drawing.Font("宋体", 15F);
-            this.label1.Location = new System.Drawing.Point(315, 101);
+            this.label1.Location = new System.Drawing.Point(420, 126);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 20);
+            this.label1.Size = new System.Drawing.Size(75, 25);
             this.label1.TabIndex = 159;
             this.label1.Text = "姓名:";
             // 
@@ -110,9 +114,10 @@
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button2.Location = new System.Drawing.Point(528, 96);
+            this.button2.Location = new System.Drawing.Point(704, 120);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(80, 30);
+            this.button2.Size = new System.Drawing.Size(107, 38);
             this.button2.TabIndex = 179;
             this.button2.Text = "查询";
             this.button2.UseVisualStyleBackColor = false;
@@ -133,13 +138,61 @@
             this.PDate,
             this.Delete});
             this.dataGridView1.DataSource = this.menzhenDataSetBindingSource1;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 132);
+            this.dataGridView1.Location = new System.Drawing.Point(16, 165);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(893, 370);
+            this.dataGridView1.Size = new System.Drawing.Size(1191, 462);
             this.dataGridView1.TabIndex = 180;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // IDnum
+            // 
+            this.IDnum.DataPropertyName = "IDnum";
+            this.IDnum.HeaderText = "IDnum";
+            this.IDnum.Name = "IDnum";
+            // 
+            // IDp
+            // 
+            this.IDp.DataPropertyName = "IDp";
+            this.IDp.HeaderText = "医保卡号";
+            this.IDp.Name = "IDp";
+            // 
+            // PName
+            // 
+            this.PName.DataPropertyName = "Name";
+            this.PName.HeaderText = "姓名";
+            this.PName.Name = "PName";
+            this.PName.Width = 80;
+            // 
+            // PPhone
+            // 
+            this.PPhone.DataPropertyName = "Phone";
+            this.PPhone.HeaderText = "联系方式";
+            this.PPhone.Name = "PPhone";
+            // 
+            // PAddres
+            // 
+            this.PAddres.DataPropertyName = "Addres";
+            this.PAddres.HeaderText = "住址";
+            this.PAddres.Name = "PAddres";
+            this.PAddres.Width = 300;
+            // 
+            // PDate
+            // 
+            this.PDate.DataPropertyName = "Date";
+            this.PDate.HeaderText = "日期";
+            this.PDate.Name = "PDate";
+            this.PDate.Width = 80;
+            // 
+            // Delete
+            // 
+            this.Delete.HeaderText = "";
+            this.Delete.Name = "Delete";
+            this.Delete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Delete.Text = "删除";
+            this.Delete.UseColumnTextForLinkValue = true;
             // 
             // menzhenDataSetBindingSource1
             // 
@@ -198,9 +251,10 @@
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(649, 96);
+            this.button1.Location = new System.Drawing.Point(865, 120);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 30);
+            this.button1.Size = new System.Drawing.Size(107, 38);
             this.button1.TabIndex = 181;
             this.button1.Text = "返回";
             this.button1.UseVisualStyleBackColor = false;
@@ -212,65 +266,19 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label2.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(102, 40);
+            this.label2.Location = new System.Drawing.Point(136, 50);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(543, 33);
+            this.label2.Size = new System.Drawing.Size(673, 40);
             this.label2.TabIndex = 182;
             this.label2.Text = "杭州传承中医门诊部医药信息单管理";
             // 
-            // IDnum
-            // 
-            this.IDnum.DataPropertyName = "IDnum";
-            this.IDnum.HeaderText = "IDnum";
-            this.IDnum.Name = "IDnum";
-            // 
-            // IDp
-            // 
-            this.IDp.DataPropertyName = "IDp";
-            this.IDp.HeaderText = "医保卡号";
-            this.IDp.Name = "IDp";
-            // 
-            // PName
-            // 
-            this.PName.DataPropertyName = "Name";
-            this.PName.HeaderText = "姓名";
-            this.PName.Name = "PName";
-            this.PName.Width = 80;
-            // 
-            // PPhone
-            // 
-            this.PPhone.DataPropertyName = "Phone";
-            this.PPhone.HeaderText = "联系方式";
-            this.PPhone.Name = "PPhone";
-            // 
-            // PAddres
-            // 
-            this.PAddres.DataPropertyName = "Addres";
-            this.PAddres.HeaderText = "住址";
-            this.PAddres.Name = "PAddres";
-            this.PAddres.Width = 300;
-            // 
-            // PDate
-            // 
-            this.PDate.DataPropertyName = "Date";
-            this.PDate.HeaderText = "日期";
-            this.PDate.Name = "PDate";
-            this.PDate.Width = 80;
-            // 
-            // Delete
-            // 
-            this.Delete.HeaderText = "";
-            this.Delete.Name = "Delete";
-            this.Delete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Delete.Text = "删除";
-            this.Delete.UseColumnTextForLinkValue = true;
-            // 
             // MassageShow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(917, 531);
+            this.ClientSize = new System.Drawing.Size(1223, 664);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
@@ -280,6 +288,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MassageShow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "医药信息单管理系统";
