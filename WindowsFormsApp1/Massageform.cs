@@ -56,12 +56,10 @@ namespace ChineseMedicine
 
             detail.Text = All.Address;
 
-            cmd.CommandText = "select Phone from Patient where IDp = '" + number.Text + "'";
-            phone.Text = cmd.ExecuteScalar().ToString();
+            phone.Text = All.Phone;
 
-            cmd.CommandText = "select HomePhone from Patient where IDp = '" + number.Text + "'";
-            label25.Text = cmd.ExecuteScalar().ToString();
-            
+            label25.Text = All.Home_phone;
+
             conn.Close();
 
             //MessageBox.Show(All.Lei);

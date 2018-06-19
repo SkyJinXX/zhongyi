@@ -104,6 +104,8 @@ namespace ChineseMedicine
             All.Num = textBox8.Text + "t" + textBox9.Text + "x" + textBox10.Text;
             All.Bei = textBox11.Text;
             All.Id = num;
+            All.Phone = textBox6.Text;
+            All.Home_phone = textBox7.Text;
             All.Address = comboBox1.SelectedItem.ToString();
 
             //MessageBox.Show(All.Lei);

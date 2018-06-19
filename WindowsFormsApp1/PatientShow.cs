@@ -188,18 +188,31 @@ namespace ChineseMedicine
             SqlConnection conn = new SqlConnection(connstr);
             conn.Open();
 
-            String sql = "delete from Information where IDp ='" + IDp + "'";
+            String Sqls = "select IDp from Address where IDa = '" + IDa + "'";
+            SqlCommand cmds = new SqlCommand(Sqls, conn);
+            String idp = cmds.ExecuteScalar().ToString();
+
+            String sql = "delete from Information where IDp ='" + idp + "'";
             SqlCommand cmd = new SqlCommand(sql, conn);
             //int rst = cmd.ExecuteNonQuery();
+            
+            MessageBox.Show(idp.ToString());
+
+            cmd.CommandText = "select count(*) from Address where IDp = '" + idp + "'";
+            int count = Convert.ToInt32(cmd.ExecuteScalar().ToString()); 
 
             sql = "delete from Address where IDa ='" + IDa + "'";
             cmd.CommandText = sql;
             int rst = cmd.ExecuteNonQuery();
+            
+            MessageBox.Show(count.ToString());
 
-            //sql = "delete from Patient where IDp ='" + IDp + "'";
-            //cmd.CommandText = sql;
-            //cmd.ExecuteNonQuery();
-
+            if (count == 1)
+            {
+                sql = "delete from Patient where IDp ='" + idp + "'";
+                cmd.CommandText = sql;
+                cmd.ExecuteNonQuery();
+            }
             conn.Close();
             return rst;
         }

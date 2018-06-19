@@ -51,6 +51,10 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -146,7 +150,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label5.Font = new System.Drawing.Font("宋体", 15F);
-            this.label5.Location = new System.Drawing.Point(34, 308);
+            this.label5.Location = new System.Drawing.Point(34, 318);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(59, 20);
             this.label5.TabIndex = 195;
@@ -158,7 +162,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label3.Font = new System.Drawing.Font("宋体", 15F);
-            this.label3.Location = new System.Drawing.Point(35, 286);
+            this.label3.Location = new System.Drawing.Point(35, 296);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 20);
             this.label3.TabIndex = 194;
@@ -170,7 +174,7 @@
             this.textBox9.Location = new System.Drawing.Point(95, 282);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(624, 53);
+            this.textBox9.Size = new System.Drawing.Size(274, 70);
             this.textBox9.TabIndex = 193;
             // 
             // button2
@@ -298,12 +302,56 @@
             this.label2.TabIndex = 198;
             this.label2.Text = "地址:";
             // 
+            // textBox10
+            // 
+            this.textBox10.Font = new System.Drawing.Font("宋体", 15F);
+            this.textBox10.Location = new System.Drawing.Point(478, 322);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(219, 30);
+            this.textBox10.TabIndex = 210;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Font = new System.Drawing.Font("宋体", 15F);
+            this.textBox11.Location = new System.Drawing.Point(478, 279);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(219, 30);
+            this.textBox11.TabIndex = 209;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label14.Font = new System.Drawing.Font("宋体", 15F);
+            this.label14.Location = new System.Drawing.Point(413, 282);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(59, 20);
+            this.label14.TabIndex = 208;
+            this.label14.Text = "手机:";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label13.Font = new System.Drawing.Font("宋体", 15F);
+            this.label13.Location = new System.Drawing.Point(412, 325);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(59, 20);
+            this.label13.TabIndex = 207;
+            this.label13.Text = "宅电:";
+            // 
             // MassageNewAddress
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(803, 465);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
@@ -360,5 +408,9 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
     }
 }

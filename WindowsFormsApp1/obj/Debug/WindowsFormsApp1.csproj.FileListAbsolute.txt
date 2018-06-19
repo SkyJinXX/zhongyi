@@ -79,3 +79,4 @@ C:\Users\Administrator\Documents\GitHub\zhongyi\WindowsFormsApp1\obj\Debug\Windo
 C:\Users\Administrator\Documents\GitHub\zhongyi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
 C:\Users\Administrator\Documents\GitHub\zhongyi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Administrator\Documents\GitHub\zhongyi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\zhongyi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache

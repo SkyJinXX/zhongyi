@@ -72,8 +72,32 @@ namespace ChineseMedicine
         private static String num = "";
         private static String bei = "";
         private static String address = "";
+        private static String phone = "";
+        private static String home_phone = "";
 
 
+        public static String Home_phone
+        {
+            get
+            {
+                return home_phone;
+            }
+            set
+            {
+                home_phone = value;
+            }
+        }
+        public static String Phone
+        {
+            get
+            {
+                return phone;
+            }
+            set
+            {
+                phone = value;
+            }
+        }
         public static String Id
         {
             get
