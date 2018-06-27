@@ -395,7 +395,7 @@
             this.comboBox3.Items.AddRange(new object[] {
             "区",
             "县",
-            "县级市"});
+            "市"});
             this.comboBox3.Location = new System.Drawing.Point(581, 218);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(81, 28);

@@ -182,6 +182,7 @@ namespace ChineseMedicine
             //Thread th = new Thread(ThreadSendKey);
             //th.Start(this);
         }
+        
         private int DeleteByIDp(String IDa)
         {
             String connstr = ConfigurationManager.ConnectionStrings["ConStr"].ToString();
@@ -195,8 +196,6 @@ namespace ChineseMedicine
             String sql = "delete from Information where IDp ='" + idp + "'";
             SqlCommand cmd = new SqlCommand(sql, conn);
             //int rst = cmd.ExecuteNonQuery();
-            
-            MessageBox.Show(idp.ToString());
 
             cmd.CommandText = "select count(*) from Address where IDp = '" + idp + "'";
             int count = Convert.ToInt32(cmd.ExecuteScalar().ToString()); 
@@ -205,8 +204,6 @@ namespace ChineseMedicine
             cmd.CommandText = sql;
             int rst = cmd.ExecuteNonQuery();
             
-            MessageBox.Show(count.ToString());
-
             if (count == 1)
             {
                 sql = "delete from Patient where IDp ='" + idp + "'";
