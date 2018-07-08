@@ -32,7 +32,7 @@ namespace ChineseMedicine
             SqlConnection conn = new SqlConnection(connstr);
             conn.Open();
 
-            String sql = "select Patient.IDp, IDa, Name, Gender, birthdate, Phone, Addres from Address,Patient where Address.IDp " +
+            String sql = "select Patient.IDp, IDa, Name, Gender, birthdate, Phone, HomePhone, Addres from Address,Patient where Address.IDp " +
                 " = Patient.IDp order by Patient.IDp asc; ";
             SqlDataAdapter da = new SqlDataAdapter(sql, conn);
             DataSet ds = new DataSet();
@@ -51,8 +51,9 @@ namespace ChineseMedicine
             dataGridView1.Columns["Gender"].DisplayIndex = 2;
             dataGridView1.Columns["BirthDate"].DisplayIndex = 3;
             dataGridView1.Columns["PPhone"].DisplayIndex = 4;
-            dataGridView1.Columns["PAddres"].DisplayIndex = 5;
-            dataGridView1.Columns["DeleteRow"].DisplayIndex = 6;
+            dataGridView1.Columns["HomePhone"].DisplayIndex = 5;
+            dataGridView1.Columns["PAddres"].DisplayIndex = 6;
+            dataGridView1.Columns["DeleteRow"].DisplayIndex = 7;
             conn.Close();
 
         }
@@ -72,7 +73,7 @@ namespace ChineseMedicine
             if (cmd.ExecuteScalar() == null)
             {
                 MessageBox.Show("查无此纪录！", "错误提示:");
-                sql = "select Patient.IDp, Name, Gender, birthdate, Phone, Addres from Address,Patient where Address.IDp " +
+                sql = "select Patient.IDp, Name, Gender, birthdate, Phone, HomePhone, Addres from Address,Patient where Address.IDp " +
                 " = Patient.IDp order by Patient.IDp asc; ";
             }
             else
@@ -97,7 +98,7 @@ namespace ChineseMedicine
 
         protected String SqlFlush()
         {
-            String s = "select Patient.IDp, IDa, Name, Gender, birthdate, Phone, Addres from Address,Patient where Address.IDp = Patient.IDp ";
+            String s = "select Patient.IDp, IDa, Name, Gender, birthdate, Phone, HomePhone, Addres from Address,Patient where Address.IDp = Patient.IDp ";
 
             if (textBox1.Text != "")
             {
@@ -141,12 +142,13 @@ namespace ChineseMedicine
             String BirthDate = ((DateTime)dataGridView1.Rows[e.RowIndex].Cells["BirthDate"].Value).ToString("yyyy-MM-dd");
             String PPhone = (String)dataGridView1.Rows[e.RowIndex].Cells["PPhone"].Value;
             String PAdress = (String)dataGridView1.Rows[e.RowIndex].Cells["PAddres"].Value;
+            String HomePhone = (String)dataGridView1.Rows[e.RowIndex].Cells["HomePhone"].Value;
 
             String connstr = ConfigurationManager.ConnectionStrings["ConStr"].ToString();
             SqlConnection conn = new SqlConnection(connstr);
             conn.Open();
 
-            String sql = String.Format("update Patient set Name = '{1}', Gender = '{2}', Phone = '{3}', BirthDate = '{4}' where IDp = '{0}'", IDp, PName, Gender, PPhone, BirthDate);
+            String sql = String.Format("update Patient set Name = '{1}', Gender = '{2}', Phone = '{3}', BirthDate = '{4}', HomePhone = '{5}' where IDp = '{0}'", IDp, PName, Gender, PPhone, BirthDate, HomePhone);
             SqlCommand cmd = new SqlCommand(sql, conn);
             cmd.ExecuteNonQuery();
 

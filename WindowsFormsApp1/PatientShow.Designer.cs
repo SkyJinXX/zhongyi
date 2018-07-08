@@ -54,6 +54,7 @@
             this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BirthDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PPhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HomePhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PAddres = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DeleteRow = new System.Windows.Forms.DataGridViewLinkColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -105,13 +106,14 @@
             this.Gender,
             this.BirthDate,
             this.PPhone,
+            this.HomePhone,
             this.PAddres,
             this.DeleteRow});
             this.dataGridView1.DataSource = this.menzhenDataSet2BindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(30, 134);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(855, 367);
+            this.dataGridView1.Size = new System.Drawing.Size(940, 365);
             this.dataGridView1.TabIndex = 189;
             this.dataGridView1.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.dataGridView1_CellBeginEdit);
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
@@ -253,8 +255,14 @@
             // PPhone
             // 
             this.PPhone.DataPropertyName = "Phone";
-            this.PPhone.HeaderText = "联系方式";
+            this.PPhone.HeaderText = "手机号";
             this.PPhone.Name = "PPhone";
+            // 
+            // HomePhone
+            // 
+            this.HomePhone.DataPropertyName = "HomePhone";
+            this.HomePhone.HeaderText = "宅电";
+            this.HomePhone.Name = "HomePhone";
             // 
             // PAddres
             // 
@@ -275,7 +283,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(929, 531);
+            this.ClientSize = new System.Drawing.Size(997, 540);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
@@ -330,6 +338,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Gender;
         private System.Windows.Forms.DataGridViewTextBoxColumn BirthDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn PPhone;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HomePhone;
         private System.Windows.Forms.DataGridViewTextBoxColumn PAddres;
         private System.Windows.Forms.DataGridViewLinkColumn DeleteRow;
     }
