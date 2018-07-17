@@ -16,12 +16,12 @@
         "Entry"
         {
         "MsmKey" = "8:_665EB0F9B2C06186489D9593035FCBAA"
-        "OwnerKey" = "8:_F4BCB7C3597147E69864948460C702BC"
+        "OwnerKey" = "8:_6E692388BAF54B57BE72626E112D36B7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F4BCB7C3597147E69864948460C702BC"
+        "MsmKey" = "8:_6E692388BAF54B57BE72626E112D36B7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -34,7 +34,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F4BCB7C3597147E69864948460C702BC"
+        "OwnerKey" = "8:_6E692388BAF54B57BE72626E112D36B7"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -55,6 +55,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -71,6 +79,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -308,7 +324,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_9CB47B92B63A45E1BABD1AFA34DC02F3"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CA47065A70084C1BA5FAD53BA486B62C"
             {
             "Name" = "8:Shortcut to 主输出 from WindowsFormsApp1 (Active)"
             "Arguments" = "8:"
@@ -316,7 +332,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_F4BCB7C3597147E69864948460C702BC"
+            "Target" = "8:_6E692388BAF54B57BE72626E112D36B7"
             "Folder" = "8:_896311C3B5B8431DB2516EB592EE4C4A"
             "WorkingFolder" = "8:_896311C3B5B8431DB2516EB592EE4C4A"
             "Icon" = "8:"
@@ -721,7 +737,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_F4BCB7C3597147E69864948460C702BC"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_6E692388BAF54B57BE72626E112D36B7"
             {
             "SourcePath" = "8:..\\WindowsFormsApp1\\obj\\Debug\\WindowsFormsApp1.exe"
             "TargetName" = "8:"

@@ -321,9 +321,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.count1.BackColor = System.Drawing.Color.Transparent;
             this.count1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.count1.Location = new System.Drawing.Point(449, 296);
+            this.count1.Location = new System.Drawing.Point(437, 296);
             this.count1.Name = "count1";
-            this.count1.Size = new System.Drawing.Size(17, 42);
+            this.count1.Size = new System.Drawing.Size(39, 42);
             this.count1.TabIndex = 177;
             this.count1.Text = "A";
             this.count1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -335,9 +335,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.count2.BackColor = System.Drawing.Color.Transparent;
             this.count2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.count2.Location = new System.Drawing.Point(505, 296);
+            this.count2.Location = new System.Drawing.Point(499, 296);
             this.count2.Name = "count2";
-            this.count2.Size = new System.Drawing.Size(15, 42);
+            this.count2.Size = new System.Drawing.Size(29, 42);
             this.count2.TabIndex = 178;
             this.count2.Text = "D";
             this.count2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -349,9 +349,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.count3.BackColor = System.Drawing.Color.Transparent;
             this.count3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.count3.Location = new System.Drawing.Point(556, 295);
+            this.count3.Location = new System.Drawing.Point(548, 295);
             this.count3.Name = "count3";
-            this.count3.Size = new System.Drawing.Size(16, 42);
+            this.count3.Size = new System.Drawing.Size(34, 42);
             this.count3.TabIndex = 179;
             this.count3.Text = "N";
             this.count3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -481,7 +481,7 @@
             this.detail.Location = new System.Drawing.Point(159, 185);
             this.detail.MaximumSize = new System.Drawing.Size(690, 0);
             this.detail.Name = "detail";
-            this.detail.Size = new System.Drawing.Size(90, 25);
+            this.detail.Size = new System.Drawing.Size(69, 20);
             this.detail.TabIndex = 192;
             this.detail.Text = "detail";
             this.detail.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -559,14 +559,14 @@
             this.label27.Location = new System.Drawing.Point(159, 352);
             this.label27.MaximumSize = new System.Drawing.Size(690, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(125, 25);
+            this.label27.Size = new System.Drawing.Size(99, 20);
             this.label27.TabIndex = 200;
             this.label27.Text = "备注内容:";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Massageform
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
